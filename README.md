@@ -20,3 +20,10 @@ This repository is the end to end implementation of red wine quality.
 2. prepare Data Ingestion configuration
 3. construct Data Ingestion Component
 4. Build Data Ingestion pipeline
+
+### Data Validation
+
+1. Create Data Validation entity
+2. prepapre Data Validation Configuration
+3. Construct Data Validation Component
+4. Build Data Validation pipeline
