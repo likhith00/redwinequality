@@ -12,3 +12,11 @@ This repository is the end to end implementation of red wine quality.
 
 1. Create logs for file handler and stream handler
 2. Create a file called "common.py" to store and call reusable code in utils.
+
+
+### Data Ingestion
+
+1. Create Data Ingestion entity
+2. prepare Data Ingestion configuration
+3. construct Data Ingestion Component
+4. Build Data Ingestion pipeline

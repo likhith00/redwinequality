@@ -1,10 +1,11 @@
 import os
 import urllib.request as request
 import zipfile
+from pathlib import Path
 from mlProject import logger
 from mlProject.utils.common import get_size
 from mlProject.config.configuration import DataIngestionConfig
-from pathlib import Path
+
 
 class DataIngestion:
     def __init__(self,config:DataIngestionConfig):
