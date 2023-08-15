@@ -50,3 +50,16 @@ This repository is the end to end implementation of red wine quality.
 4. prepare Model Evaluation Configuration
 5. Construct Model Evaluation Component
 6. Build Model Evaluation pipeline
+
+## prediction pipeline
+
+1. create prediction.py file in pipelines.
+2. Build HtML files for frontend access.
+3. create flask app in app.py
+
+## Deployment
+
+1. create DockerFile
+2. Create Azure resource group using ```az group create --name myResourceGroup --location eastus```
+3. create azure container apps and push the docker image ```az containerapp up --resource-group myResourceGroup --name redwinecont2 --ingress external --target-port 8080 --source .```
+4. destroy the resources after usage ```az group delete --name myResourceGroup```
