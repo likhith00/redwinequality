@@ -24,6 +24,29 @@ This repository is the end to end implementation of red wine quality.
 ### Data Validation
 
 1. Create Data Validation entity
-2. prepapre Data Validation Configuration
+2. prepare Data Validation Configuration
 3. Construct Data Validation Component
 4. Build Data Validation pipeline
+
+### Data Transformation
+
+1. Create Data Transformation entity
+2. prepare Data Transformation Configuration
+3. Construct Data Transformation Component
+4. Build Data Transformation pipeline
+
+### Model Trainer
+
+1. Create Model Trainer entity
+2. prepare Model Trainer Configuration
+3. Construct Model Trainer Component
+4. Build Model Trainer pipeline
+
+### Model Evaluation
+
+1. Connect repository to Dagshub
+2. get dagshub experiment credentials
+3. Create Model Trainer entity
+4. prepare Model Evaluation Configuration
+5. Construct Model Evaluation Component
+6. Build Model Evaluation pipeline
